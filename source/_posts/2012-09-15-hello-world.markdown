@@ -46,6 +46,7 @@ this is a [an example](http://www.google.com "google") inline link with tile "go
 [**this link**](http://www.google.com) has no title  
 
 ---
+<!-- more -->
 ### Strong
 
 this is a **strong** example
@@ -66,10 +67,3 @@ above is a image example
 <embed src="http://player.youku.com/player.php/sid/XMTQxMTk5Njc2/v.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
 </div>
 above is a  video example
-
-<script>
-var adfly_id = 2488618;
-var adfly_advert = 'int';
-var domains = ['depositfiles.com', 'rapidshare.com', 'vip-file.com', 'smsfiles.ru', '4files.net', 'turbobit.ru', 'uploading.com', 'letitbit.net', 'depositfiles.ru', 'sms4file.com', 'ifolder.ru', 'hotfile.com', 'anyfiles.net', 'sharingmatrix.com', 'megashare.com', 'megaupload.com', 'rapidshare.de', 'rapidshare.ru', 'uploadbox.com', 'filefactory.com', 'filefactory.ru', 'filepost.ru', 'onefile.net', 'freefolder.net', 'getthebit.com', 'turbobit.net',];
-</script>
-<script src="http://adf.ly/js/link-converter.js"></script>
