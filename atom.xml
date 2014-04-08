@@ -4,7 +4,7 @@
   <title><![CDATA[Dream's Blog]]></title>
   <link href="http://blog.neweer.com/atom.xml" rel="self"/>
   <link href="http://blog.neweer.com/"/>
-  <updated>2014-04-08T16:24:57+08:00</updated>
+  <updated>2014-04-08T17:40:49+08:00</updated>
   <id>http://blog.neweer.com/</id>
   <author>
     <name><![CDATA[Dream]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[zombie ninjas attack]]></title>
+    <link href="http://blog.neweer.com/blog/2014/04/08/zombie-ninjas-attack/"/>
+    <updated>2014-04-08T17:39:00+08:00</updated>
+    <id>http://blog.neweer.com/blog/2014/04/08/zombie-ninjas-attack</id>
+    <content type="html"><![CDATA[<h1>h1 title</h1>
+
+<ul>
+<li>list1</li>
+<li>list2</li>
+<li>list3</li>
+<li>list4</li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[hello world]]></title>
