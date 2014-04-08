@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: github pages | Dream's Blog]]></title>
-  <link href="http://loadmemo.github.com/blog/categories/github-pages/atom.xml" rel="self"/>
-  <link href="http://loadmemo.github.com/"/>
-  <updated>2014-04-08T14:33:59+08:00</updated>
-  <id>http://loadmemo.github.com/</id>
+  <link href="http://blog.neweer.com/blog/categories/github-pages/atom.xml" rel="self"/>
+  <link href="http://blog.neweer.com/"/>
+  <updated>2014-04-08T16:24:57+08:00</updated>
+  <id>http://blog.neweer.com/</id>
   <author>
     <name><![CDATA[Dream]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[hello world]]></title>
-    <link href="http://loadmemo.github.com/blog/2012/09/15/hello-world/"/>
+    <link href="http://blog.neweer.com/blog/2012/09/15/hello-world/"/>
     <updated>2012-09-15T15:57:00+08:00</updated>
-    <id>http://loadmemo.github.com/blog/2012/09/15/hello-world</id>
+    <id>http://blog.neweer.com/blog/2012/09/15/hello-world</id>
     <content type="html"><![CDATA[<h1>基本语法</h1>
 
 <hr />
@@ -70,6 +70,9 @@ this is a list line 1 para3, quote2</p></blockquote></li>
 
 <hr />
 
+<!-- more -->
+
+
 <h3>Strong</h3>
 
 <p>this is a <strong>strong</strong> example</p>
@@ -97,16 +100,6 @@ above is a image example</p>
 
 
 <p>above is a  video example</p>
-
-<script>
-var adfly_id = 2488618;
-var adfly_advert = 'int';
-var domains = ['depositfiles.com', 'rapidshare.com', 'vip-file.com', 'smsfiles.ru', '4files.net', 'turbobit.ru', 'uploading.com', 'letitbit.net', 'depositfiles.ru', 'sms4file.com', 'ifolder.ru', 'hotfile.com', 'anyfiles.net', 'sharingmatrix.com', 'megashare.com', 'megaupload.com', 'rapidshare.de', 'rapidshare.ru', 'uploadbox.com', 'filefactory.com', 'filefactory.ru', 'filepost.ru', 'onefile.net', 'freefolder.net', 'getthebit.com', 'turbobit.net',];
-</script>
-
-
-<script src="http://adf.ly/js/link-converter.js"></script>
-
 ]]></content>
   </entry>
   
