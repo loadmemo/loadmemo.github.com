@@ -58,10 +58,15 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/twitter.ht
 # ----------------------- #
 
 # Github repositories
-github_user:
+github_use: loadmemo
 github_repo_count: 0
 github_show_profile_link: true
 github_skip_forks: true
+
+# weibo
+weibo_user: 1625074102
+dribbble_user:
+weibo_share: true
 
 # Twitter
 #twitter_user:
