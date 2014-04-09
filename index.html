@@ -7,8 +7,30 @@
 	<meta name="author" content="Dream">
 
 	
-	<meta name="description" content=" Apr 8th, 2014 octopress Comments Hello World 按照惯例，我的博客也应该以hello world开始。 Blog Archives
-">
+	<meta name="description" content="Apr 8th, 2014 octopress Comments Hello World 按照惯例，我的博客也应该以hello world开始。 hello world 1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24 &hellip;">
 	
 
   <!-- http://t.co/dKP3o1e -->
@@ -107,6 +129,146 @@
 	<h1 class="title" itemprop="name"><a href="/blog/2014/04/08/hello-world/" itemprop="url">Hello World</a></h1>
 	<div class="entry-content" itemprop="articleBody">
 		<p><strong>按照惯例，我的博客也应该以hello world开始。</strong></p>
+
+<p><img class="bottom" src="/images/blog/hello_world/helloworld.png"></p>
+
+<figure class='code'><figcaption><span>hello world  </span></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+<span class='line-number'>32</span>
+<span class='line-number'>33</span>
+<span class='line-number'>34</span>
+<span class='line-number'>35</span>
+<span class='line-number'>36</span>
+<span class='line-number'>37</span>
+<span class='line-number'>38</span>
+<span class='line-number'>39</span>
+<span class='line-number'>40</span>
+<span class='line-number'>41</span>
+<span class='line-number'>42</span>
+<span class='line-number'>43</span>
+<span class='line-number'>44</span>
+<span class='line-number'>45</span>
+<span class='line-number'>46</span>
+<span class='line-number'>47</span>
+<span class='line-number'>48</span>
+<span class='line-number'>49</span>
+<span class='line-number'>50</span>
+<span class='line-number'>51</span>
+<span class='line-number'>52</span>
+<span class='line-number'>53</span>
+<span class='line-number'>54</span>
+<span class='line-number'>55</span>
+<span class='line-number'>56</span>
+<span class='line-number'>57</span>
+<span class='line-number'>58</span>
+<span class='line-number'>59</span>
+<span class='line-number'>60</span>
+<span class='line-number'>61</span>
+<span class='line-number'>62</span>
+<span class='line-number'>63</span>
+<span class='line-number'>64</span>
+<span class='line-number'>65</span>
+<span class='line-number'>66</span>
+</pre></td><td class='code'><pre><code class='c'><span class='line'><span class="cp">#ifdef __APPLE__</span>
+</span><span class='line'><span class="cp">#include &lt;GLUT/glut.h&gt;          </span><span class="cm">/* Open GL Util    APPLE */</span><span class="cp"></span>
+</span><span class='line'><span class="cp">#else</span>
+</span><span class='line'><span class="cp">#include &lt;GL/glut.h&gt;            </span><span class="cm">/* Open GL Util    OpenGL*/</span><span class="cp"></span>
+</span><span class='line'><span class="cp">#endif</span>
+</span><span class='line'><span class="cp">#include &lt;stdlib.h&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="kt">void</span> <span class="nf">drawCharactor</span><span class="p">(</span><span class="kt">int</span> <span class="n">ch</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>    <span class="kt">float</span> <span class="n">r</span> <span class="o">=</span> <span class="p">(</span><span class="kt">float</span><span class="p">)</span><span class="n">rand</span><span class="p">()</span><span class="o">/</span><span class="n">RAND_MAX</span><span class="p">;</span>
+</span><span class='line'>    <span class="kt">float</span> <span class="n">g</span> <span class="o">=</span> <span class="p">(</span><span class="kt">float</span><span class="p">)</span><span class="n">rand</span><span class="p">()</span><span class="o">/</span><span class="n">RAND_MAX</span><span class="p">;</span>
+</span><span class='line'>    <span class="kt">float</span> <span class="n">b</span> <span class="o">=</span> <span class="p">(</span><span class="kt">float</span><span class="p">)</span><span class="n">rand</span><span class="p">()</span><span class="o">/</span><span class="n">RAND_MAX</span><span class="p">;</span>
+</span><span class='line'>    <span class="n">glColor3f</span><span class="p">(</span><span class="n">r</span><span class="p">,</span><span class="n">g</span><span class="p">,</span><span class="n">b</span><span class="p">);</span>
+</span><span class='line'>    <span class="n">glutStrokeCharacter</span><span class="p">(</span><span class="n">GLUT_STROKE_ROMAN</span><span class="p">,</span> <span class="n">ch</span><span class="p">);</span>
+</span><span class='line'><span class="p">}</span>
+</span><span class='line'>
+</span><span class='line'><span class="kt">void</span> <span class="nf">displayCall</span><span class="p">()</span> <span class="p">{</span>
+</span><span class='line'>  <span class="n">glClear</span><span class="p">(</span><span class="n">GL_COLOR_BUFFER_BIT</span> <span class="o">|</span> <span class="n">GL_DEPTH_BUFFER_BIT</span><span class="p">);</span>
+</span><span class='line'>  <span class="n">glEnable</span><span class="p">(</span><span class="n">GL_DEPTH_TEST</span><span class="p">);</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="n">glMatrixMode</span><span class="p">(</span><span class="n">GL_PROJECTION</span><span class="p">);</span>
+</span><span class='line'>  <span class="n">glLoadIdentity</span><span class="p">();</span>
+</span><span class='line'>  <span class="n">glOrtho</span><span class="p">(</span><span class="o">-</span><span class="mf">2.0</span><span class="p">,</span> <span class="mf">2.0</span><span class="p">,</span> <span class="o">-</span><span class="mf">2.0</span><span class="p">,</span> <span class="mf">2.0</span><span class="p">,</span> <span class="o">-</span><span class="mf">2.0</span><span class="p">,</span> <span class="mf">500.0</span><span class="p">);</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="n">glMatrixMode</span><span class="p">(</span><span class="n">GL_MODELVIEW</span><span class="p">);</span>
+</span><span class='line'>  <span class="n">glLoadIdentity</span><span class="p">();</span>
+</span><span class='line'>  <span class="n">gluLookAt</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">,</span> <span class="mf">1.0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">);</span>
+</span><span class='line'>  <span class="n">glScalef</span><span class="p">(</span><span class="mf">.005</span><span class="p">,</span><span class="mf">.005</span><span class="p">,</span><span class="mf">.005</span><span class="p">);</span>
+</span><span class='line'>  <span class="n">glRotatef</span><span class="p">(</span><span class="mi">20</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+</span><span class='line'>  <span class="n">glRotatef</span><span class="p">(</span><span class="mi">30</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">);</span>
+</span><span class='line'>  <span class="n">glRotatef</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+</span><span class='line'>  <span class="n">glTranslatef</span><span class="p">(</span><span class="o">-</span><span class="mi">300</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="n">drawCharactor</span><span class="p">(</span><span class="sc">&#39;H&#39;</span><span class="p">);</span>
+</span><span class='line'>  <span class="n">drawCharactor</span><span class="p">(</span><span class="sc">&#39;e&#39;</span><span class="p">);</span>
+</span><span class='line'>  <span class="n">drawCharactor</span><span class="p">(</span><span class="sc">&#39;l&#39;</span><span class="p">);</span>
+</span><span class='line'>  <span class="n">drawCharactor</span><span class="p">(</span><span class="sc">&#39;l&#39;</span><span class="p">);</span>
+</span><span class='line'>  <span class="n">drawCharactor</span><span class="p">(</span><span class="sc">&#39;o&#39;</span><span class="p">);</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="n">drawCharactor</span><span class="p">(</span><span class="sc">&#39;W&#39;</span><span class="p">);</span>
+</span><span class='line'>  <span class="n">drawCharactor</span><span class="p">(</span><span class="sc">&#39;o&#39;</span><span class="p">);</span>
+</span><span class='line'>  <span class="n">drawCharactor</span><span class="p">(</span><span class="sc">&#39;r&#39;</span><span class="p">);</span>
+</span><span class='line'>  <span class="n">drawCharactor</span><span class="p">(</span><span class="sc">&#39;l&#39;</span><span class="p">);</span>
+</span><span class='line'>  <span class="n">drawCharactor</span><span class="p">(</span><span class="sc">&#39;d&#39;</span><span class="p">);</span>
+</span><span class='line'>  <span class="n">drawCharactor</span><span class="p">(</span><span class="sc">&#39;!&#39;</span><span class="p">);</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="n">glTranslatef</span><span class="p">(</span><span class="o">-</span><span class="mi">400</span><span class="p">,</span> <span class="o">-</span><span class="mi">200</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
+</span><span class='line'>  <span class="n">drawCharactor</span><span class="p">(</span><span class="sc">&#39;N&#39;</span><span class="p">);</span>
+</span><span class='line'>  <span class="n">drawCharactor</span><span class="p">(</span><span class="sc">&#39;e&#39;</span><span class="p">);</span>
+</span><span class='line'>  <span class="n">drawCharactor</span><span class="p">(</span><span class="sc">&#39;w&#39;</span><span class="p">);</span>
+</span><span class='line'>  <span class="n">drawCharactor</span><span class="p">(</span><span class="sc">&#39;e&#39;</span><span class="p">);</span>
+</span><span class='line'>  <span class="n">drawCharactor</span><span class="p">(</span><span class="sc">&#39;e&#39;</span><span class="p">);</span>
+</span><span class='line'>  <span class="n">drawCharactor</span><span class="p">(</span><span class="sc">&#39;r&#39;</span><span class="p">);</span>
+</span><span class='line'>  <span class="n">glutSwapBuffers</span><span class="p">();</span>
+</span><span class='line'><span class="p">}</span> <span class="cm">/* end func displayCall */</span>
+</span><span class='line'>
+</span><span class='line'><span class="cm">/* Set up everything, and start the GLUT main loop. */</span>
+</span><span class='line'><span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="o">*</span><span class="n">argv</span><span class="p">[])</span> <span class="p">{</span>
+</span><span class='line'>  <span class="n">glutInit</span><span class="p">(</span><span class="o">&amp;</span><span class="n">argc</span><span class="p">,</span> <span class="n">argv</span><span class="p">);</span>
+</span><span class='line'>  <span class="n">glutInitDisplayMode</span><span class="p">(</span><span class="n">GLUT_RGB</span> <span class="o">|</span> <span class="n">GLUT_DOUBLE</span> <span class="o">|</span> <span class="n">GLUT_DEPTH</span><span class="p">);</span>
+</span><span class='line'>  <span class="n">glutInitWindowSize</span><span class="p">(</span><span class="mi">500</span><span class="p">,</span> <span class="mi">500</span><span class="p">);</span>
+</span><span class='line'>  <span class="n">glutInitWindowPosition</span><span class="p">(</span><span class="mi">300</span><span class="p">,</span> <span class="mi">200</span><span class="p">);</span>
+</span><span class='line'>  <span class="n">glutCreateWindow</span><span class="p">(</span><span class="s">&quot;Hello World!&quot;</span><span class="p">);</span>
+</span><span class='line'>  <span class="n">glutDisplayFunc</span><span class="p">(</span><span class="n">displayCall</span><span class="p">);</span>
+</span><span class='line'>  <span class="n">glutMainLoop</span><span class="p">();</span>
+</span><span class='line'>  <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+</span><span class='line'><span class="p">}</span> <span class="cm">/* end func main */</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+
 
 		
 		
